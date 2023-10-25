@@ -1,20 +1,16 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { Typography } from '@mui/material'
-import { Stack } from '@mui/system'
 import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord'
 
 import logoBeraud from '../../../public/images/Header/logoBeraud.png'
+import './Header.css'
 
 function Header () {
   return (
     <>
       <header className='header'>
-        <Stack
-          direction='row'
-          alignItems='center'
-          justifyContent='center'
-        >
+        <div>
           <Link href='/'>
             <Image
               src={logoBeraud}
@@ -22,13 +18,8 @@ function Header () {
               priority
             />
           </Link>
-        </Stack>
-        <Stack
-          direction='row'
-          alignItems='center'
-          justifyContent='center'
-          marginTop='1rem'
-        >
+        </div>
+        <div>
           <Link href='/tienda'>
             <Typography color='secondary' variant='pBold'>
               <FiberManualRecordIcon color='primary' />{' '}
@@ -36,7 +27,7 @@ function Header () {
               <FiberManualRecordIcon color='primary' />
             </Typography>
           </Link>
-        </Stack>
+        </div>
       </header>
     </>
   )
