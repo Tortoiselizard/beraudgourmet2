@@ -1,11 +1,14 @@
-import Header from '@/components/Header/Header'
+import HeaderHome from '@/components/HeaderHome/HeaderHome'
+import MainHome from '@/components/MainHome/MainHome'
 
 export default function Home () {
   console.log('entre en Home')
   return (
     <>
-      <Header />
-      <h1>Hola Mundo</h1>
+      <HeaderHome />
+      <MainHome />
+      {/* <Footer />
+      <Contact /> */}
     </>
   )
 }
