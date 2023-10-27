@@ -8,11 +8,11 @@ import hero from '../../../public/images/homeimg/homeimgberaud/hero.png'
 
 const fotosRedondas = [
   '/images/homeimg/homeimgberaud/750_6063.JPG',
-  '/images/homeimg/homeimgberaud/750_6069.JPG',
-  '/images/homeimg/homeimgberaud/750_6074.JPG',
-  '/images/homeimg/homeimgberaud/750_6209.JPG',
-  '/images/homeimg/homeimgberaud/750_6211.JPG',
-  '/images/homeimg/homeimgberaud/750_6214.JPG'
+  '/images/homeimg/homeimgberaud/750_6069.JPG'
+  // '/images/homeimg/homeimgberaud/750_6074.JPG',
+  // '/images/homeimg/homeimgberaud/750_6209.JPG',
+  // '/images/homeimg/homeimgberaud/750_6211.JPG',
+  // '/images/homeimg/homeimgberaud/750_6214.JPG'
   // '/images/homeimg/homeimgberaud/750_6217.JPG',
   // '/images/homeimg/homeimgberaud/750_6230.JPG',
   // '/images/homeimg/homeimgberaud/750_6268.JPG',
