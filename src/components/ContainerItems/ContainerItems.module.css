@@ -1,6 +1,6 @@
 .ContainerItems {
-    flex-grow: 3;
-    width: calc();
+    /* flex-grow: 3; */
+    width: calc(3/4*100%);
 }
 
 .ContainerItemsTitle {
