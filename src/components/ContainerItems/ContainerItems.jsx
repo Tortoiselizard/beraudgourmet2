@@ -5,6 +5,9 @@ import style from './ContainerItems.module.css'
 function ContainerItems () {
   return (
     <div className={style.ContainerItems}>
+      <h1 className={style.ContainerItemsTitle}>
+        <strong>Pizzas</strong>
+      </h1>
       <ul className={style.listItems}>
         {
             items.map(item => (

@@ -1,18 +1,24 @@
 .ContainerItems {
-    width: calc(100vw - 300px);
-    background-color: antiquewhite;
+    flex-grow: 3;
+    width: calc();
+}
+
+.ContainerItemsTitle {
+    font-size: 32px;
 }
 
 .listItems {
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
     gap: 32px
 }
 
 .listItems li {
     position: relative;
-    width: 275px;
+    width: 230px;
+    aspect-ratio: 2/3;
+    border: 1px solid black;
     background-color: aquamarine;
 }
 
@@ -20,5 +26,9 @@
     width: 100%;
     aspect-ratio: 1/1;
     position: relative;
-    background-color: red;
+    /* background-color: red; */
+}
+
+.listItems figure img {
+    object-fit: cover;
 }

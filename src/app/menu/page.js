@@ -1,14 +1,15 @@
 import ContainerItems from '../../components/ContainerItems/ContainerItems'
 import OrderRewards from '../../components/OrderRewards/OrderRewards'
-import Footer from '@/components/Footer/Footer'
+import style from './page.module.css'
 
 function Menu () {
   return (
-    <>
-      <ContainerItems />
-      <OrderRewards />
-      <Footer />
-    </>
+    <main className={style.ContainerMenu}>
+      <section className={style.ItemsList_Rewards}>
+        <ContainerItems />
+        <OrderRewards />
+      </section>
+    </main>
   )
 }
 

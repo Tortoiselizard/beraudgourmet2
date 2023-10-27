@@ -4,7 +4,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'images.hola.com'
+        hostname: 't4.ftcdn.net'
       }
     ]
   }
