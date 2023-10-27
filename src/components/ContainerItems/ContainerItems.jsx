@@ -4,18 +4,18 @@ import style from './ContainerItems.module.css'
 
 function ContainerItems () {
   return (
-    <div>
-      <h1>Estoy en el contenedor</h1>
+    <div className={style.ContainerItems}>
       <ul className={style.listItems}>
         {
             items.map(item => (
               <li key={item.name}>
-                <Image
-                  src={item.image}
-                  alt={item.name}
-                  width={200}
-                  height={200}
-                />
+                <figure>
+                  <Image
+                    src={item.image}
+                    alt={item.name}
+                    fill
+                  />
+                </figure>
                 <label>{item.name}</label>
                 <span>${item.price}</span>
                 <p>{item.text}</p>

@@ -1,15 +1,24 @@
+.ContainerItems {
+    width: calc(100vw - 300px);
+    background-color: antiquewhite;
+}
+
 .listItems {
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
     gap: 32px
 }
 
 .listItems li {
     position: relative;
-    width: 200px;
+    width: 275px;
+    background-color: aquamarine;
 }
 
-.listItems img {
+.listItems figure {
+    width: 100%;
     aspect-ratio: 1/1;
+    position: relative;
+    background-color: red;
 }
