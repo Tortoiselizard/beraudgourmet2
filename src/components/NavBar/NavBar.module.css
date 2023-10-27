@@ -1,7 +1,18 @@
+.NavBarContainer {
+    height: 135px;
+    width: 100%;
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
 .NavBar {
+    height: 50px;
+    margin-bottom: 14px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: aqua;
-    
+    gap: 20px;
 }

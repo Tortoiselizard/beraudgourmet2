@@ -4,7 +4,7 @@ import links from './navbarpaths.json'
 
 function NavBar () {
   return (
-    <div>
+    <div className={style.NavBarContainer}>
       <ul className={style.NavBar}>
         {
           links.map((link) => (
