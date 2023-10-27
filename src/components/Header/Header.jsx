@@ -6,7 +6,11 @@ import style from './Header.module.css'
 function Header () {
   return (
     <header className={style.Header}>
-      <Image src={logoBeraud} alt='logoBeraud' />
+      <div className={style.topHeader}>
+        <div className={style.containerImage}>
+          <Image src={logoBeraud} alt='logoBeraud' />
+        </div>
+      </div>
       <NavBar />
     </header>
   )
