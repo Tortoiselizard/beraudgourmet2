@@ -1,0 +1,40 @@
+{
+    "about": [
+        {
+            "title": "Acerca de nosotros",
+            "path": ""
+        },
+        {
+            "title": "Entrega sin contacto",
+            "path": ""
+        },
+        {
+            "title": "Tener una franquisia",
+            "path": ""
+        }
+    ],
+    "ourFood": [
+        {
+            "title": "Ingredientes",
+            "path": ""
+        },
+        {
+            "title": "Nutrición",
+            "path": ""
+        }
+    ],
+    "help": [
+        {
+            "title": "Contactanos",
+            "path": ""
+        },
+        {
+            "title": "FAQ",
+            "path": ""
+        },
+        {
+            "title": "Tener una franquisia",
+            "path": ""
+        }
+    ]
+}

@@ -1,7 +1,6 @@
 .ContainerOrderRewards {
     width: calc(1/4*100%);
     background-color: #EAEDF2;
-    height: 550px;
     padding: 10px 30px;
     border-radius: 10px;
     display: flex;
